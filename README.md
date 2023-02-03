@@ -1,5 +1,5 @@
 # klipper_macros for Voron Trident/V2.4
-My Voron Trident has Klicky probe, no Z-enstop and measure chamber tempeature using hotend because i don't have chamber tempeature sensor
+These are my macros for my Voron Trident it has a Klicky probe, no Z-enstop, Dragon HF hotend and measures chamber temperature using the hotend thermistor as I don't have a chamber temperature sensor.
 
 ## Start G-code:
 ### For Ultimaker Cura:
