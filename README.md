@@ -17,8 +17,20 @@ print_start EXTRUDER=[first_layer_temperature[initial_tool]] BED=[first_layer_be
 ### For SuperSlicer:
 ```
 M190 S0
-M109 S0 ; uncomment to remove set&wait temp gcode added automatically after this start gcode
+M109 S0
 print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]
+```
+### For BambuStudio:
+```
+M190 S0
+M104 S0
+PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] FILAMENT={filament_type[0]} 
+```
+### For BambuStudio-SoftFever:
+```
+M190 S0
+M104 S0
+PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] 
 ```
 
 
