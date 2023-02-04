@@ -1,6 +1,8 @@
 # klipper_macros for Voron Trident/V2.4
 These are my macros for my Voron Trident it has a Klicky probe, no Z-enstop, Dragon HF hotend and measures chamber temperature using the hotend thermistor as I don't have a chamber temperature sensor.
 
+I have installed https://github.com/Clon1998/mobileraker_companion to monitor my printer from Mobileraker mobile application.
+
 ## Start G-code:
 ### For Ultimaker Cura:
 ```
