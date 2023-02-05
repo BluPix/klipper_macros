@@ -1,4 +1,4 @@
-# klipper_macros for Voron Trident/V2.4
+# klipper_macros for Voron Trident/V2/V0
 These are my macros for my Voron Trident it has a Klicky probe, no Z-enstop, Dragon HF hotend and measures chamber temperature using the hotend thermistor as I don't have a chamber temperature sensor.
 
 I have installed https://github.com/Clon1998/mobileraker_companion to monitor my printer from Mobileraker mobile application.
@@ -32,7 +32,7 @@ PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_ini
 ```
 M190 S0
 M104 S0
-PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] 
+print_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] 
 ```
 
 
