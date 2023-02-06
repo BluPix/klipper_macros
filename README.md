@@ -34,7 +34,7 @@ print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
 ```
 M190 S0
 M104 S0
-PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] FILAMENT={filament_type[0]} 
+print_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] FILAMENT={filament_type[0]} 
 ```
 ### For BambuStudio-SoftFever:
 ```
