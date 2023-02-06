@@ -1,5 +1,6 @@
 # klipper_macros for Voron Trident/V2/V0
 WORK IN PROGRESS
+
 These are my macros for my Voron V0.1 and Trident, but it should also work on Voron V2.4.  
 Functions:
 * I don't have to change anything, the same macro works on both printers. 
