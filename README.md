@@ -12,12 +12,17 @@ Functions:
 * At the end of a print, the printer waits for the bed to cool before it finishes printing. If you use Mobileraker and https://github.com/Clon1998/mobileraker_companion , your phone only gets notifications when it makes sense to go to the printer to take the print off.
 
 ## Start G-code:
-### For BambuStudio and OrcaSlicer:
+### For BambuStudio:
+```
+M190 S0
+M104 S0
+print_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] FILAMENT={filament_type[0]} 
+```
+### For BambuStudio-SoftFever:
 ```
 M190 S0
 M104 S0
 print_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] 
-```
 
 ### For Ultimaker Cura:
 ```
