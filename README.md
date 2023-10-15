@@ -18,7 +18,7 @@ M190 S0
 M104 S0
 print_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] FILAMENT={filament_type[0]} 
 ```
-### For BambuStudio-SoftFever:
+### For OrcaSlicer:
 ```
 M190 S0
 M104 S0
