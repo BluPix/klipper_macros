@@ -23,7 +23,7 @@ print_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_ini
 M190 S0
 M104 S0
 print_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] 
-
+```
 ### For Ultimaker Cura:
 ```
 print_start BED={material_bed_temperature} HOTEND={material_print_temperature} FILAMENT={material_type}
