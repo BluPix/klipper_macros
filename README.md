@@ -1,4 +1,4 @@
-# Klipper Macros for Voron Trident/V2/V0
+# Klipper Macros for Voron Trident/V2/V0 optimized for Klicky probe
 WORK IN PROGRESS
 
 These are my macros for my Voron V0.1 and Trident, but should work on any enclosed 3d printer like the Voron V2.4.
